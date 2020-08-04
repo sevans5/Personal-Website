@@ -2,6 +2,7 @@ import React from 'react';
 
 import './App.css';
 import logo1 from './logo1.svg';
+import logo2 from './logo1.png';
 
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -12,7 +13,7 @@ function Navig() {
 <Navbar expand="lg">
   <Navbar.Brand href="./projects">
       <img
-        src={logo1}
+        src={logo2}
         width="80"
         height="80"
         className="d-inline-block align-top App-logo"
