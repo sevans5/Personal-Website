@@ -79,16 +79,16 @@ function MovieFinder() {
               </Col><Col md>
               <Image fluid src={moviefindermid}/>
              </Col></Row> 
-             <Row className="ux-item"><Col md>
+             <Row className="ux-item"><Col md className="iphone-wireframe">
               <Image fluid src={moviefinderfinal2} 
               height="75%"
               width="75%"/>
-              </Col><Col md>
+              </Col><Col md className="iphone-wireframe">
               <Image fluid src={moviefinderfinal1}
                height="75%"
                width="75%"/>
              </Col>
-             <Col md>
+             <Col md className="iphone-wireframe">
               <Image fluid src={moviefinderfinal3}
                height="75%"
                width="75%"/>
