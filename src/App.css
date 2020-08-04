@@ -1,0 +1,171 @@
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+.header {
+  font-family: 'Poppins', sans-serif;
+}
+
+.text {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.App {
+  text-align: center;
+}	
+
+body {
+  background-color: white;
+  color: #0a0a0a;
+}
+
+a{
+  color: grey;
+}
+
+a:hover {
+  color: darkgray;
+}
+
+.title {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.des {
+  
+  text-align: left;
+}
+
+.about-des {
+  text-align: left;
+  padding-top: 20px;
+
+}
+
+.paragraph {
+  padding-top: 15px;
+  font-weight: light;
+}
+
+.paragraph-header {
+  font-size: 25px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+.buttons {
+  padding-bottom: 25px;
+}
+
+.info-content {
+  
+}
+
+.aboutHeader {
+  padding-top: 100px;
+}
+
+.question {
+  text-align: center;
+}
+
+.ux-item {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+nav {
+  min-height: 10vh; 
+  color: black; 
+
+  box-shadow: none !important; 
+
+}
+
+@media all and (min-width: 992px) {
+  .nav-links {
+    padding-right: 100px;
+  }
+}
+  
+.name {
+  font-size: 30px; 
+
+}
+  
+.footer {
+  padding-top: 75px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.footer-text {
+  font-size: 18px;
+}
+
+.connect-items {
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+.copyright {
+  font-size: 16px;
+  padding-top: 20px;
+  font-weight: light;
+}
+
+.icon {
+  padding-right: 20px;
+}
+
+.icon-link {
+  color: #0a0a0a; 
+}
+
+.footer-links {
+  padding-top: 200px;
+  text-align: center;
+  color: grey;
+
+}
+
+.active {
+  color: black;
+}
+
+
+.App-logo {
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
